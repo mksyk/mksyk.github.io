@@ -1,0 +1,312 @@
+<!-- 博文的布局-Layout -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 引入head标签 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="开源作业1" />
+<meta name="keywords" content="photography" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_default.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
+
+<!-- Favicon -->
+<link href="/assets/profile.jpeg" rel="shortcut icon" />
+<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+<title>艺术的眼睛</title>
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌分析 -->
+
+
+<!-- Android Lolipop Theme Color -->
+<meta name="theme-color" content=" rgb(255,90,90) ">
+</head>
+<body>
+
+<!-- 顶部锚点 -->
+<a id="htmlup" name="htmlup"></a>
+<!-- 引入博文顶部选项 -->
+
+<header id="post-header" style="background-color:rgb(255,90,90);">
+  <div class="top-center">
+      <div class="logo">
+          <a href="/" title="my awesome webtitle" style="color: white;">摄影</a>
+      </div>
+      <nav class="top-nav">
+          <ul>
+              
+                <li><a href="/" style="color: white;">首页</a></li>
+              
+                <li><a href="/2024/04/15/photo-test.html" style="color: white;">摄影心得</a></li>
+              
+                <li><a href="/2024/04/15/photo.html" style="color: white;">作品鉴赏</a></li>
+              
+                <li><a href="/about.html" style="color: white;">关于我</a></li>
+              
+                <li><a href="/2024/04/15/report.html" style="color: white;">总结报告</a></li>
+              
+          </ul>
+      </nav>
+      <div id="top-boot">
+        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot_white.png" alt=""></a>
+        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot_white.png" alt=""></a>
+      </div>
+  </div>
+
+</header>
+
+
+<!-- 引入移动下拉选项 -->
+<div id="boot-area">
+    <ul>
+        
+          <a href="/"><li>首页</li></a>
+        
+          <a href="/2024/04/15/photo-test.html"><li>摄影心得</li></a>
+        
+          <a href="/2024/04/15/photo.html"><li>作品鉴赏</li></a>
+        
+          <a href="/about.html"><li>关于我</li></a>
+        
+          <a href="/2024/04/15/report.html"><li>总结报告</li></a>
+        
+    </ul>
+</div>
+
+<!-- 引入博文顶部样式 -->
+<!-- 版本一 垃圾 -->
+<!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
+    <span class="wow fadeInUp" data-wow-delay="0.2s">艺术的眼睛</span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;true</span>
+</div> -->
+
+<!-- 版本二 可切换页面 -->
+
+<div class="post-top" style="background-color:rgb(255,90,90);">
+  <!-- 页面宽度大于800px -->
+  <div class="left-area">
+    
+      <a href="/2024/04/15/report.html" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='rgb(255,90,90)';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:rgb(255,90,90);"><sapn class="main">总结报告</sapn></span></div>
+    
+  </div>
+  <div class="post-titlearea">
+    <span class="wow fadeInUp" data-wow-delay="0.2s">艺术的眼睛</span>
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;true</span> -->
+  </div>
+  <div class="right-area">
+    
+      <a href="/2024/04/15/photo-test.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='rgb(255,90,90)';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:rgb(255,90,90);"><sapn class="main">摄影心得</sapn></span></div>
+    
+  </div>
+
+  <!-- 页面宽度小于800px -->
+  <div class="post-changearea">
+    
+      <a href="/2024/04/15/report.html" class="leftchange" style="border-right: 1px solid rgb(255,90,90);border-bottom: 2px solid rgb(255,90,90);"><span>上一篇<br><br>总结报告</span></a>
+    
+    
+      <a href="/2024/04/15/photo-test.html" class="rightchange" style="border-left: 1px solid rgb(255,90,90);border-bottom: 2px solid rgb(255,90,90);"><span>下一篇<br><br>摄影心得</span></a>
+    
+  </div>
+</div>
+
+
+<div class="markdown-body fadeInUp animated">
+
+  
+
+  <!-- 文章内容 -->
+  <p>摄影作品鉴赏</p>
+
+<p><img src="https://pic3.zhimg.com/v2-ec11913470c114f20a6310be4a016b32_r.jpg" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1521341287100-1d9902c020de?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUU2JTkxJTg0JUU1JUJEJUIxfGVufDB8fDB8fHww" /></p>
+
+<p><img src="https://plus.unsplash.com/premium_photo-1713084071124-a38a6c647759?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1674547268587-e83b35f316ed?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JUU2JTkxJTg0JUU1JUJEJUIxfGVufDB8fDB8fHww" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1582460580497-f8a9f557d862?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1706611500547-1725cc99bdcf?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1662308960857-19f43ee3c610?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1711612637998-4edfbbdca6ab?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1695131486104-e45184ac805e?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1554190354-aff7005e20ee?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1651413949923-f95f98db6d94?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1560149928-140fae1d5a58?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1599719794412-0c646b0bf2f3?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<p><img src="https://images.unsplash.com/photo-1701139462082-01b3bbea0a2d?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fCVFNiU5MSU4NCVFNSVCRCVCMXxlbnwwfHwwfHx8MA%3D%3D" /></p>
+
+<!-- <img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/>
+<img src= ''/> -->
+
+
+  <!-- 引入share模块 -->
+  
+  <div class="social-share-wrapper">
+    <div class="social-share"></div>
+  </div>
+
+
+<!-- share.js -->
+<script src="/assets/js/social-share.min.js"></script>
+<script>
+  socialShare('.social-share', {
+    sites: [
+      
+        'qq'
+        ,
+        
+      
+        'wechat'
+        ,
+        
+      
+        'weibo'
+        ,
+        
+      
+        'twitter'
+        ,
+        
+      
+        'facebook'
+        
+      
+    ],
+    wechatQrcodeTitle: "分享到微信朋友圈",
+    wechatQrcodeHelper: '期待在朋友圈见到这篇文章'
+  });
+</script>
+
+</div>
+
+<!-- 底部锚点 -->
+<a id="htmldown" name="htmldown"></a>
+<!-- 引入评论模块 -->
+
+
+
+    <section class="post-footer-item comment">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDI2OS8xMDgwNg=="></div>
+    </section>
+
+    <!-- 来必力City版安装代码 -->
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+    <!-- City版安装代码已完成 -->
+
+
+
+
+
+<!-- 引入goto模块 -->
+<div class="bounceInRight animated go">
+  <a title="顶部切换页面" class="gototop" href="#htmlup" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Top
+    </div>
+  </a>
+  <a title="底部有livere评论哦" class="gotobottom" href="#htmldown" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Foot
+    </div>
+  </a>
+</div>
+
+<!-- 引入页面底部模块 -->
+<footer id="bottom">
+  <br>
+  <span>photography ©
+  
+  
+  2024
+  <br>
+  <!-- Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span> -->
+</footer>
+
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 600,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
